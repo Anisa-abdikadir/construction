@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Reem+Kufi:wght@400..700&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: "Reem Kufi", sans-serif;
+}
+@theme{
+    
+    --color-primary: #253447;
+    --color-primary-dull : #3D7DB8;
+}
+
+/* .primary :
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+} */
+.no-scrollbar {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
