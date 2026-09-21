@@ -25,6 +25,7 @@ const SectionTwoAbout = () => {
                 <p>Together.</p>
               </div>
             </div>
+            
             <img src={assets.AboutImageLeft2} className='w-90 h-80 object-cover' alt="" /> 
         </div>
         

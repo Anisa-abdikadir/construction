@@ -49,9 +49,9 @@ const Footer = () => {
   return (
     <footer className="bg-secondary  text-[#242F42]">
 
-      <section className="max-w-6xl mx-auto px-2 sm:px-8 pt-10">
+      <section className="max-w-6xl mx-auto px-6 sm:px-8 pt-10">
 
-        <div className=" overflow-hidden rounded-2xl bg-[#3770A8] px-6 py-10 md:px-10">
+        <div className=" overflow-hidden rounded-2xl bg-[#3770A8] px-10 py-10 md:px-10">
           <div className="relative flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
 
             {/* Newsletter Text */}

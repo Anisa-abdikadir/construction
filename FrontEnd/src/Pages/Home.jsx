@@ -1,5 +1,5 @@
-import React from 'react'
-import NavBart from '../Components/NavBart'
+import React, { useEffect } from 'react'
+import NavBar from '../Components/NavBar'
 import HeroHome from '../Home/HeroHome'
 import HServices from '../Home/HServices'
 import WorkProcess from '../Home/WorkProcess'
@@ -9,11 +9,14 @@ import Footer from '../Components/Footer'
 import Process from "../Services/Process"
 
 const Home = () => {
+  useEffect(()=>{
+    window.scroll(0,0)
+  },[])
   return (
     <div>
       <div>
         
-        <NavBart/>
+        <NavBar/>
         
         
         <HeroHome/>

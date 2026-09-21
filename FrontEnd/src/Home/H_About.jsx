@@ -5,18 +5,18 @@ import Button from "../ui/Button";
 
 const H_About = () => {
   return (
-    <section className="w-full bg-white px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+    <section className="w-full  px-4 sm:px-2 md:px-7  lg:px-5 py-16 sm:py-20 lg:py-24">
       <div className="relative max-w-6xl mx-auto">
 
         {/* TOP SECTION */}
-        <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-6 lg:gap-10">
+        <div className="grid grid-cols-1 px-10 lg:grid-cols-[220px_1fr] gap-6 lg:gap-10">
 
           {/* LEFT IMAGE */}
           <div className="hidden lg:block h-90 overflow-hidden rounded-sm">
             <img
               src={assets.GoldenHourConstruction}
               alt="Construction machine"
-              className="w-full h-full object-cover"
+              className="w-full h-full  object-cover"
             />
           </div>
 
@@ -71,8 +71,7 @@ const H_About = () => {
           </div>
         </div>
 
-        {/* BOTTOM SECTION */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-6 mt-8 sm:mt-10">
+        <div className="grid grid-cols-1 px-10 lg:grid-cols-[1fr_300px] gap-6 mt-8 sm:mt-10">
 
           {/* STATS CARD */}
           <div
@@ -126,7 +125,7 @@ const H_About = () => {
             <img
               src={assets.Threepeople}
               alt="Construction team"
-              className="absolute bottom-0 right-0 hidden md:block w-75 rounded-lg  object-cover"
+              className="absolute bottom-0  right-10 hidden md:block w-75 rounded-lg  object-cover"
             />
       </div>
     </section>

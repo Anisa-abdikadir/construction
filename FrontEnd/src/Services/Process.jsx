@@ -25,7 +25,7 @@ const Process = () => {
    
 
   return (
-    <div className="w-full bg-white p-10 sm:py-20 lg:py-24">
+    <div className="w-full bg-white  sm:py-20 lg:py-24 max-w-6xl mx-auto px-2 sm:px-8 pt-10">
       <div className="max-w-382.5 mx-auto px-5 sm:px-8 lg:px-10">
 
         {/* Heading */}
@@ -76,7 +76,7 @@ const Process = () => {
 
                           <h3 className="text-lg sm:text-xl font-bold text-white"> {process.title} 
                             </h3>
-                             <p className="mt-2 text-xs sm:text-sm leading-5 text-white">
+                             <p className="mt-2 text-sm sm:text-sm leading-5 text-white/50">
                              {process.description} </p>
                       </div>
                     </div>

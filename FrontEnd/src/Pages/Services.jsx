@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import HeroServices from '../Services/HeroServices'
-import NavBart from '../Components/NavBart'
+import NavBar from '../Components/NavBar'
 import ServicesSevtonTwo from '../Services/ServicesSevtonTwo'
 import Process from '../Services/Process'
 import Footer from "../Components/Footer"
@@ -12,7 +12,7 @@ const Services = () => {
   },[])
   return (
     <div>
-        <NavBart/>
+        <NavBar/>
         <HeroServices/>
         <ServicesSevtonTwo/>
         <Process/>

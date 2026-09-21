@@ -38,7 +38,7 @@ const services = [
 
 const HServices = () => {
   return (
-    <section className="bg-white py-20 sm:py-24 ">
+    <section className=" px-6 sm:py-2 ">
 
       {/* Section Header */}
       <div className="max-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10">
@@ -70,7 +70,7 @@ const HServices = () => {
 
 
         {/* Services Cards */} 
-        <div className="grid grid-cols-1 px-1 pt-3    sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-14 ">
+        <div className="grid grid-cols-1  pt-3    sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-14 ">
 
           {services.map((service, index) => {
 

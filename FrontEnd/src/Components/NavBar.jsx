@@ -1,18 +1,18 @@
-
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../ui/Button";
 import { assets } from "../assets/assets";
+const Navbar = () => {
+ 
 
-const NavBart = () => {
-  const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false);
 
   const closeMenu = () => {
     setOpen(false);
   };
 
   return (
-    <nav className="w-full md:px-15 lg:px-15 px-8  bg-white border-b border-[#aaa] fixed z-50">
+    <nav className="w-full md:px-15 lg:px-15 px-6  bg-white border-b border-[#aaa] fixed z-50">
 
       <div className="max-w-6xl  mx-auto  sm:px-6 h-20 flex items-center justify-between">
 
@@ -253,5 +253,6 @@ const NavBart = () => {
     </nav>
   );
 };
+      
 
-export default NavBart;
+export default Navbar

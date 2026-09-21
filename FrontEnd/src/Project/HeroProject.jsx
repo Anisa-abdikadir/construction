@@ -1,9 +1,10 @@
 import React from 'react'
 import { assets } from '../assets/assets'
-const HeroServices = () => {
+const HeroProject = () => {
   return (
-    <div className=' mx-auto relative w-full h-90 overflow-hidden '>
-            <img src={assets.servicesHeroImage} className="w-full  h-90 object-cover object-center" alt="" />
+    <div className=' w-full mx-auto'>
+        <div className='relative w-full h-full overflow-hidden'>
+            <img src={assets.project} className="w-full  h-90 object-cover object-center" alt="" />
                                       <div className="absolute inset-0 h-full  bg-black/45  " />
                                        <div className="absolute inset-0 flex items-center justify-center  ">
               
@@ -12,17 +13,17 @@ const HeroServices = () => {
             </div>
             <div className=' absolute bottom-10 left-1/2 -translate-x-1/2 '>
                       <h2 className="text-white text-4xl  sm:text-5xl  font-bold">
-                    SERVICES
+                        OUR PROJECTS
                 </h2>
                   </div>
            
               
 
         </div>
+               
          
-                    
-         
+    </div>
   )
 }
 
-export default HeroServices
+export default HeroProject

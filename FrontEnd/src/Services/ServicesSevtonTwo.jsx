@@ -64,12 +64,12 @@ const ServicesSevtonTwo = () => {
             {/* Top curved shape */}
             <div
               className="
-                absolute -top-10 left-1/2 h-18.75 w-37.5 -translate-x-1/2 rounded-b-full bg-[#182131] " />
+                absolute -top-10 left-1/2 h-18.75 w-37.5 -translate-x-1/2 rounded-b-full bg-[#76CBF1] " />
 
             {/* Icon */}
             <div
-              className=" relative z-10 mb-4  text-[#3770A8] transition-all
-                duration-300 group-hover:scale-110  group-hover:text-[#4386C2]" >
+              className=" relative z-10 mb-4  text-[#76CBF1] transition-all
+                duration-300 group-hover:scale-110  group-hover:text-[#ffff]" >
               <div className="text-4xl">
                 {service.icon}
               </div>

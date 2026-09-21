@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import NavBart from '../Components/NavBart'
+import NavBar from '../Components/NavBar'
 import HeroAbout from '../About/HeroAbout'
 import SectionTwoAbout from '../About/SectionTwoAbout'
 import Why_Choose from '../About/Why_Choose'
@@ -12,7 +12,7 @@ const About = () => {
   },[])
   return (
     <div>
-        <NavBart/>
+        <NavBar/>
         <HeroAbout/>
         <SectionTwoAbout/>
         <Why_Choose/>

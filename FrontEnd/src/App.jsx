@@ -5,6 +5,8 @@ import Home from './Pages/Home'
 // import RequestQuotePage from './Components/RequestQuotePage'
 import About from './Pages/About'
 import Services from './Pages/Services'
+import Projects from './Pages/Projects'
+import Blog from './Pages/Blog'
 
 const App = () => {
   
@@ -22,6 +24,8 @@ const App = () => {
         /> */}
         <Route path ="/About" element={<About/>}/>
         <Route path ="/Services" element={<Services/>}/>
+        <Route path="/Projects" element={<Projects/>}/>
+        <Route path="/Blog" element={<Blog/>}/>
 
       </Routes>
   )
