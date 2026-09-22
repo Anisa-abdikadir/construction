@@ -167,24 +167,24 @@ const pROJECTS = [
 
               <div className="mx-auto mb-6 flex max-w-6xl flex-wrap justify-center gap-6 border-b border-gray-200">
 
-        {categories.map((category) => (
-          <button
-            key={category}
-            onClick={() => setActiveCate(category)}
-            className={`relative pb-3 text-[11px] font-medium transition ${
-              ActiveCate === category
-                ? "text-[#3770A8]"
-                : "text-gray-500 hover:text-[#242F42]"
-            }`}
-          >
-            {category}
+                {categories.map((category) => (
+                <button
+                    key={category}
+                    onClick={() => setActiveCate(category)}
+                    className={`relative pb-3 text-[11px] font-medium transition ${
+                    ActiveCate === category
+                        ? "text-[#3770A8]"
+                        : "text-gray-500 hover:text-[#242F42]"
+                    }`}
+                >
+                    {category}
 
-            {/* Active underline */}
-            {ActiveCate === category && (
-              <span className="absolute -bottom-px left-0 h-0.5 w-full bg-[#242F42]" />
-            )}
-          </button>
-        ))}
+                    {/* Active underline */}
+                    {ActiveCate === category && (
+                    <span className="absolute -bottom-px left-0 h-0.5 w-full bg-[#242F42]" />
+                    )}
+                </button>
+                ))}
 
       </div>
 

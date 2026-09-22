@@ -19,9 +19,9 @@ const footerLinks = {
   ],
 
   Company: [
-    { name: "About Us", path: "/about" },
+    { name: "About Us", path: "/About" },
     { name: "Our Projects", path: "/projects" },
-    { name: "Our Team", path: "/team" },
+    { name: "BLOG", path: "/Blog" },
     { name: "Contact Us", path: "/contact" },
   ],
 
@@ -72,7 +72,6 @@ const Footer = () => {
 
             </div>
 
-            {/* Newsletter Form */}
             <form
               onSubmit={handleSubscribe}
               className="w-full max-w-md"
@@ -112,7 +111,7 @@ const Footer = () => {
       </section>
 
       {/* FOOTER CONTENT */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+      <div className="max-w-6xl  mx-auto px-4 sm:px-6 py-14">
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
 
@@ -121,8 +120,7 @@ const Footer = () => {
 
             <Link
               to="/"
-              className="inline-block text-xl font-bold text-[#242F42]"
-            >
+              className="inline-block text-xl font-bold text-[#242F42]" >
               <img src={assets.fulcrum_logo_main} className="w-50" alt="" />
             </Link>
 
@@ -206,7 +204,7 @@ const Footer = () => {
 
             <div key={title}>
 
-              <h3 className="text-sm font-semibold text-[#242F42]">
+              <h3 className="text-sm  font-semibold text-[#242F42]">
                 {title}
               </h3>
 
@@ -218,8 +216,7 @@ const Footer = () => {
 
                     <Link
                       to={link.path}
-                      className="group flex items-center gap-1 text-sm text-[#242F42]/60 transition hover:text-[#3770A8]"
-                    >
+                      className="group flex items-center  gap-1 text-sm text-[#242F42]/60 transition hover:text-[#3770A8]" >
                       {link.name}
 
                       <ArrowUpRight

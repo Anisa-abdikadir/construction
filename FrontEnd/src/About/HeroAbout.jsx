@@ -9,6 +9,7 @@ const HeroAbout = () => {
 
             <img src={assets.AboutMainImage} className="w-full  h-90 object-cover object-center" alt=""/>
                   <div className="absolute inset-0 h-90  bg-black/45  " />
+                  
 
             
 

@@ -8,7 +8,6 @@ const H_About = () => {
     <section className="w-full  px-4 sm:px-2 md:px-7  lg:px-5 py-16 sm:py-20 lg:py-24">
       <div className="relative max-w-6xl mx-auto">
 
-        {/* TOP SECTION */}
         <div className="grid grid-cols-1 px-10 lg:grid-cols-[220px_1fr] gap-6 lg:gap-10">
 
           {/* LEFT IMAGE */}

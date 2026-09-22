@@ -86,11 +86,6 @@ const WorkProcess = () => {
 
             <div className="mt-5 flex items-center gap-3">
 
-              <div className="  px-3 py-2 rounded-4xl  bg-[#3770A8] flex  items-center justify-center  ">
-                <ArrowRight
-                  size={18}
-                  className="text-white"/>
-              </div>
 
               <p className="text-sm text-[#242F42]">
                 Have a Project in Mind?
@@ -110,6 +105,7 @@ const WorkProcess = () => {
         {/* Process Cards */}
         <div className="
           grid grid-cols-1 sm:grid-cols-2   lg:grid-cols-4 gap-5 mt-14 ">
+            
 
           {processes.map((process, index) => {
 
@@ -121,6 +117,7 @@ const WorkProcess = () => {
                 className="   relative min-h-60  rounded-lg p-8 bg-primary 
                    overflow-hidden 
                   hover:shadow-xl  transition-all  duration-300  " >
+                    
 
 
                 <span className="
@@ -130,13 +127,20 @@ const WorkProcess = () => {
                     {process.number}
                   </span>
 
-               <Icons className="rounded-4xl px-2 py-2 bg-black">
-                <Icon
-                  size={32}
-                  strokeWidth={1.5}
-                  className="text-white rounded-4xl  "
-                />
-              </Icons>
+
+               <div className="relative w-14 h-14">
+                  <div className="absolute bottom-0 left-0  px-8 py-7 bg-gray-200/20  rounded-full">
+                  </div>
+
+                  {/* Icon box - kor iyo midig */}
+                  <div className="absolute top-0 hover:bg-[#3770A8] -right-3 px-3 py-3 bg-primary rounded-4xl flex items-center justify-center">
+                    <Icon
+                      size={32}
+                      strokeWidth={1.5}
+                      className="text-white "
+                    />
+                  </div>
+                </div>
 
                 {/* Line */}
                 <div className="

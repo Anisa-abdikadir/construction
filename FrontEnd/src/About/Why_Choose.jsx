@@ -3,7 +3,16 @@ import { assets } from '../assets/assets'
 import { FaBuildingColumns } from "react-icons/fa6";
 import { FaTrophy } from "react-icons/fa6";
 import { PiToolboxFill } from "react-icons/pi";
-import { FaPersonBreastfeeding } from "react-icons/fa6";
+import {
+  FaUsers,
+  FaTools,
+  FaClock,
+  FaHardHat,
+  FaDollarSign,
+  FaBriefcase,
+  FaLightbulb,
+  FaSmile,
+} from "react-icons/fa";
 
 
 
@@ -61,11 +70,6 @@ const Why_Choose = () => {
           {/* Item 2 */}
           <div className="max-w-xs text-center">
             <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              {/* <img
-                src={assets.trophy}
-                alt="Lighting"
-                className=" object-contain"
-              /> */}
 
               <FaTrophy />
 
@@ -76,9 +80,7 @@ const Why_Choose = () => {
             </h1>
 
             <p className="mt-3 text-sm text-gray-500 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam accusamus pariatur repudiandae commodi quae
-              doloremque perspiciatis.
+             We focus on quality workmanship and careful attention to detail to deliver strong and lasting results.
             </p>
           </div>
 
@@ -94,26 +96,22 @@ const Why_Choose = () => {
             </h1>
 
             <p className="mt-3 text-sm text-gray-500 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam accusamus pariatur repudiandae commodi quae
-              doloremque perspiciatis.
+            We build strong relationships with our clients through honesty, reliability, quality work, and consistent service.
             </p>
           </div>
 
           <div className="max-w-xs text-center">
             <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              <FaBuildingColumns className='' />
+              <FaUsers />
 
             </div>
 
             <h1 className="mt-5 text-xl font-semibold text-primary">
-              Trusted
-            </h1>
+                  Experienced Team 
+               </h1>
 
             <p className="mt-3 text-sm text-gray-500 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam accusamus pariatur repudiandae commodi quae
-              doloremque perspiciatis.
+            Our experienced team brings professional knowledge and practical skills to every project we undertake.
             </p>
           </div>
 
@@ -125,83 +123,61 @@ const Why_Choose = () => {
 
           <div className="max-w-xs text-center">
             <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              {/* <img
-                src={assets.lighting}
-                alt="Lighting"
-                className=" object-contain"
-              /> */}
-              <PiToolboxFill />
-
+              <FaClock />
 
             </div>
 
             <h1 className="mt-5 text-xl font-semibold text-primary">
-              Fast Service
+              On-Time Delivery
+
             </h1>
 
             <p className="mt-3 text-sm text-gray-500 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam accusamus pariatur repudiandae commodi quae
-              doloremque perspiciatis.
+              We carefully manage every project to keep the work on schedule and meet agreed deadlines.
             </p>
           </div>
 
           {/* Item 2 */}
           <div className="max-w-xs text-center">
             <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              {/* <img
-                src={assets.trophy}
-                alt="Lighting"
-                className=" object-contain"
-              /> */}
-
-              <FaTrophy />
-
+              <FaBriefcase />
             </div>
 
             <h1 className="mt-5 text-xl font-semibold text-primary">
-              Quality
+            Professional Service        
             </h1>
 
             <p className="mt-3 text-sm text-gray-500 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam accusamus pariatur repudiandae commodi quae
-              doloremque perspiciatis.
+              We maintain clear communication and professional service from the beginning of the project to completion.
             </p>
           </div>
 
           {/* Item 3 */}
           <div className="max-w-xs text-center">
             <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              <FaBuildingColumns className='' />
-
+                <FaLightbulb />
             </div>
 
             <h1 className="mt-5 text-xl font-semibold text-primary">
-              Trusted
-            </h1>
+              Modern Solutions          
+              </h1>
 
             <p className="mt-3 text-sm text-gray-500 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam accusamus pariatur repudiandae commodi quae
-              doloremque perspiciatis.
+             We use modern construction methods and practical solutions to meet the changing needs of our clients.
             </p>
           </div>
 
           <div className="max-w-xs text-center">
             <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              <FaBuildingColumns className='' />
-
+              <FaSmile />
             </div>
 
             <h1 className="mt-5 text-xl font-semibold text-primary">
-              Trusted
-            </h1>
+              Customer Satisfaction            
+              </h1>
 
             <p className="mt-3 text-sm text-gray-500 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam accusamus pariatur repudiandae commodi quae
-              doloremque perspiciatis.
+             We listen to our clients, understand their needs, and work to deliver results that meet their expectations.
             </p>
           </div>
 

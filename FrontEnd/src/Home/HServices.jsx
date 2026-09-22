@@ -97,14 +97,12 @@ const HServices = () => {
                 </div>
 
 
-                {/* Title */}
                 <h3 className=" mt-8 font-semibold text-primary hover:text-[#3770A8]
                   transition-colors  ">
                   {service.title}
                 </h3>
 
 
-                {/* Description */}
                 <p className=" mt-4 text-primary text-md line-clamp-3  leading-6">
                   {service.description}
                 </p>

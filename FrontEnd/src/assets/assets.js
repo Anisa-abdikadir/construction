@@ -59,6 +59,7 @@ import TANK_LEAK_INSPECTION2 from "./TANK_LEAK_INSPECTION2.jpg"
 import BLOG from "./BLOG.jpg"
 import S_B_T from "./S_B_T.jpg"
 import S_B_TI from "./S_B_T_I2.jpg"
+import Contact from "./CONTACT.jpg"
 
 
 export const assets = {
@@ -124,6 +125,7 @@ export const assets = {
   BLOG,
   S_B_T,
   S_B_TI,
+  Contact,
 };
 
 

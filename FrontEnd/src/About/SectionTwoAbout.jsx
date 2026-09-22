@@ -3,6 +3,8 @@ import { assets } from '../assets/assets'
 import { HiOutlineBuildingLibrary } from "react-icons/hi2";
 import { VscGraph } from "react-icons/vsc";
 import { CiUser } from "react-icons/ci";
+import { FaAward } from "react-icons/fa";
+
 
 
 
@@ -48,20 +50,14 @@ const SectionTwoAbout = () => {
           </p>
 
           <h1 className='text-3xl lg:text-2xl font-bold  mt-5'>Our Mission</h1>
-          <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Temporibus error culpa ratione illum cupiditate exercitationem veniam modi quasi odit.
-             Id eos excepturi veniam tenetur vitae nobis ex quam rerum officiis.</p>
+            <p className='text-sm'>Our mission is to deliver high-quality construction solutions that meet our clients’ needs, combining skilled workmanship, reliable materials, safety, and professional project management.</p>
+
 
 
           <h1 className='text-3xl lg:text-2xl font-bold  mt-5'>Our Vission</h1>
-          <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Temporibus error culpa ratione illum cupiditate exercitationem veniam modi quasi odit.
-             Id eos excepturi veniam tenetur vitae nobis ex quam rerum officiis.</p>
-
+          <p className='text-sm'>Our vision is to become a trusted construction company known for quality, innovation, reliability, and lasting value in every project we deliver.</p>
              <h1 className='text-2xl lg:text-2xl font-bold  mt-5'>Our Stratgy</h1>
-          <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Temporibus error culpa ratione illum cupiditate exercitationem veniam modi quasi odit.
-             Id eos excepturi veniam tenetur vitae nobis ex quam rerum officiis.</p>
+          <p className='text-sm'>We focus on careful planning, clear communication, quality materials, and efficient project management to deliver construction projects safely, on time, and to a high standard.</p>
         </div>
 
       </div>
@@ -73,7 +69,7 @@ const SectionTwoAbout = () => {
               alt=""  />
 
             <div className="absolute inset-0 flex text-[#ffffff] items-center px-6 sm:px-10 lg:px-12 bg-primary/65">
-              <div className="w-full grid gap-5 lg:grid-cols-3 md:grid-cols-3">
+              <div className="w-full grid gap-5 lg:grid-cols-4 md:grid-cols-3">
                 
                
                     <div className="text-white flex items-center justify-center gap-2">
@@ -89,8 +85,18 @@ const SectionTwoAbout = () => {
                         <CiUser  className="text-2xl " />
 
                       <div>
-                        <p className="text-2xl font-semibold mt-5">460+</p>
-                        <p className="text-sm">Case Completed</p>
+                        <p className="text-2xl font-semibold mt-5">29</p>
+                        <p className="text-sm">Consultants</p>
+                      </div>
+                    </div>
+
+                     <div className="text-white flex items-center justify-center gap-2">
+                         <FaAward className='text-2xl'/>
+
+
+                      <div>
+                        <p className="text-2xl font-semibold mt-5">18</p>
+                        <p className="text-sm">Awards winning</p>
                       </div>
                     </div>
 
@@ -98,10 +104,11 @@ const SectionTwoAbout = () => {
                          <HiOutlineBuildingLibrary className="text-2xl " />
 
                       <div>
-                        <p className="text-2xl font-semibold mt-5">460+</p>
-                        <p className="text-sm">Case Completed</p>
+                        <p className="text-2xl font-semibold mt-5">10</p>
+                        <p className="text-sm"> Years of Experience</p>
                       </div>
                     </div>
+                    
 
                     
 

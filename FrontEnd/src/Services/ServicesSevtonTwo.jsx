@@ -50,13 +50,13 @@ const ServicesSevtonTwo = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
-      <div className="w-full h-200  mt-8 sm:mt-16 lg:mt-20">
+        <div className="w-full mt-8 sm:mt-16 lg:mt-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
 
         {services.map((service, index) => (
           <div
             key={index}
-            className=" group relative h-43.75 mt-10 w-full  max-w-57.5  overflow-hidden rounded-[20px] bg-[#242F42]
+            className=" group relative h-43.75  w-full  max-w-57.5  overflow-hidden rounded-[20px] bg-[#242F42]
               flex flex-col items-center justify-center text-center shadow-[0_10px_25px_rgba(0,0,0,0.3)]
               transition-all duration-300 hover:-translate-y-2 hover:bg-[#2A394F] hover:shadow-[0_18px_35px_rgba(0,0,0,0.45)]
             ">

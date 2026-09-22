@@ -25,7 +25,7 @@ const Process = () => {
    
 
   return (
-    <div className="w-full bg-white  sm:py-20 lg:py-24 max-w-6xl mx-auto px-2 sm:px-8 pt-10">
+      <div className="w-full bg-white py-12 sm:py-16 lg:py-24">
       <div className="max-w-382.5 mx-auto px-5 sm:px-8 lg:px-10">
 
         {/* Heading */}
@@ -69,9 +69,9 @@ const Process = () => {
                     </div>
 
                     {/* Outer Circle */}
-                    <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-full bg-[#242F42] flex items-center justify-center ">
+                    <div className="w-60 h-60 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full bg-[#242F42] flex items-center justify-center ">
                           {/* circle gudaha */}
-                      <div className="w-50 h-50 sm:w-52 sm:h-52 rounded-full border-white border-2 flex flex-col items-center justify-center text-center px-5">
+                      <div className="w-48 h-48 sm:w-52 sm:h-52 lg:w-56 lg:h-56 rounded-full border-white border-2 flex flex-col items-center justify-center text-center px-5">
 
 
                           <h3 className="text-lg sm:text-xl font-bold text-white"> {process.title} 

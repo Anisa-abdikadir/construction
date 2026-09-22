@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HeroProject from '../Project/HeroProject'
 import NavBar from '../Components/Navbar'
 import P_S_TWO from '../Project/P_S_TWO'
-import Footer from "../Components/Footer"
+import Footer from '../Components/Footer'
 const Projects = () => {
+  useEffect(()=>{
+    window.scroll(0,0);
+  },[])
   return (
     <div>
     <NavBar/>
