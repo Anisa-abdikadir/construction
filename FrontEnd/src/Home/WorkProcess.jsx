@@ -42,65 +42,61 @@ const processes = [
 
 const WorkProcess = () => {
   return (
-    <section className="bg-white py-20 sm:py-24">
+    <section className="bg-white py-20 sm:py-24 ">
    
       <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-10">
-        
-        {/* Top Content */}
-        <div className="  grid  grid-cols-1  lg:grid-cols-2  gap-5 items-center ">
-        
-          {/* Left */}
-          <div>
-            
-               <div className=" mb-2 flex gap-2 items-center">
-              <div className="rounded-full w-2 h-2  bg-blue-400"></div>
+      
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <div className="rounded-full w-2 h-2 bg-blue-400"></div>
 
-                <p className="text-sm text-[#3770A8]">
+            <p className="text-sm  text-[#3770A8]">
                   WORK PROCESS
-                </p>
+            </p>
+          </div>
 
-              </div>
-            <h2 className=" mb-6  text-2xl sm:text-5xl md:text-6xl
-              font-bold text-[#242F42] ">
-              Our Work Process
-            </h2>
+          <h2 className="text-2xl sm:text-6xl md:text-4xl text-center font-bold leading-tight text-primary">
+            Construction WorkProcess <br /> For Every Project
+
+              </h2>
+
+                <div className="  grid  grid-cols-1 mt-10  lg:grid-cols-2  gap-10  ">
+
+                   <div className="lg:justify-self-start">
+
+                  <img
+                    src={assets.mainAndCar}
+                    alt="Construction work process"
+                    className="  w-300 max-w-lg  h-70 object-cover  rounded-sm"/>
+
+                </div>
 
 
-            <p className=" mb-8  max-w-2xl text-gray-600 text-base  sm:text-lg
-              leading-7 ">
+          <p className="   max-w-2xl text-gray-600 text-sm  sm:text-sm ">
               From the first consultation to final handover, we follow
               a clear and professional process to deliver construction
               projects with quality, safety, and precision.
+                From the first consultation to final handover, we follow
+              a clear and professional process to deliver construction
+              projects with quality, safety, and precision.
+                From the first consultation to final handover, we follow
+              a clear and professional process to deliver construction
+              projects with quality, safety, and precision.
+                <div className=" mt-5 flex items-center gap-3">
+
+
+                    <p className="text-sm text-[#242F42]">
+                      Have a Project in Mind?
+                      <span className=" ml-1
+                        font-bold underline cursor-pointer ">
+                        View All Services
+                      </span>
+                    </p>
+
+                  </div>
             </p>
-
-          </div>
-
-
-          {/* Right Image */}
-          <div className="lg:justify-self-end">
-
-            <img
-              src={assets.mainAndCar}
-              alt="Construction work process"
-              className="  w-full max-w-lg  h-70 object-cover  rounded-sm"/>
-
-            <div className="mt-5 flex items-center gap-3">
-
-
-              <p className="text-sm text-[#242F42]">
-                Have a Project in Mind?
-                <span className=" ml-1
-                  font-bold underline cursor-pointer ">
-                  View All Services
-                </span>
-              </p>
-
-            </div>
-
-          </div>
+           
 
         </div>
-
 
         {/* Process Cards */}
         <div className="
@@ -128,7 +124,7 @@ const WorkProcess = () => {
                   </span>
 
 
-               <div className="relative w-14 h-14">
+               <div className="relative w-14 h-14 cursor-pointer">
                   <div className="absolute bottom-0 left-0  px-8 py-7 bg-gray-200/20  rounded-full">
                   </div>
 

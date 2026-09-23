@@ -17,7 +17,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <img
-          src={assets.fulcrum_logo_main}
+          src={assets.MainLogo}
           alt="BuildGo Logo"
           className="w-32 sm:w-36 md:w-40 h-auto object-contain"
         />

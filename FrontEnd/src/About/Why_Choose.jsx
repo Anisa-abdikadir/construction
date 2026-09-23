@@ -42,16 +42,12 @@ const Why_Choose = () => {
 
 
         {/* Circles and Content */}
-        <div className="flex flex-col  sm:flex-row gap-1 mt-12 items-center justify-center">
+        <div className="flex flex-col cursor-pointer sm:flex-row gap-1 mt-12 items-center justify-center">
 
           <div className="max-w-xs text-center">
-            <div className="w-15 h-15 mx-auto rounded-full border-2 hover:bg-[#3770A8] border-primary flex items-center justify-center">
-              {/* <img
-                src={assets.lighting}
-                alt="Lighting"
-                className=" object-contain"
-              /> */}
-              <PiToolboxFill />
+            <div className="w-15 h-15 mx-auto rounded-full  border-2 group hover:bg-[#242F42] border-primary flex items-center justify-center">
+              
+              <PiToolboxFill  className="transition-colors duration-300 group-hover:text-white"/>
 
 
             </div>
@@ -69,9 +65,9 @@ const Why_Choose = () => {
 
           {/* Item 2 */}
           <div className="max-w-xs text-center">
-            <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
+            <div className="w-15 h-15 mx-auto rounded-full border-2 group hover:bg-[#242F42] border-primary flex items-center justify-center">
 
-              <FaTrophy />
+              <FaTrophy className="transition-colors duration-300 group-hover:text-white" />
 
             </div>
 
@@ -85,9 +81,9 @@ const Why_Choose = () => {
           </div>
 
           {/* Item 3 */}
-          <div className="max-w-xs text-center">
-            <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              <FaBuildingColumns className='' />
+          <div className="max-w-xs text-center ">
+            <div className="w-15 h-15 mx-auto rounded-full border-2 group hover:bg-[#242F42] border-primary flex items-center justify-center">
+              <FaBuildingColumns className="transition-colors duration-300 group-hover:text-white" />
 
             </div>
 
@@ -101,8 +97,8 @@ const Why_Choose = () => {
           </div>
 
           <div className="max-w-xs text-center">
-            <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              <FaUsers />
+            <div className="w-15 h-15 mx-auto rounded-full group hover:bg-[#242F42] border-2 border-primary flex items-center justify-center">
+              <FaUsers className="transition-colors duration-300 group-hover:text-white" />
 
             </div>
 
@@ -119,11 +115,11 @@ const Why_Choose = () => {
 
         
 
-           <div className="flex flex-col sm:flex-row gap-1 mt-12 items-center justify-center">
+           <div className="flex flex-col cursor-pointer sm:flex-row gap-1 mt-12 items-center justify-center">
 
           <div className="max-w-xs text-center">
-            <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              <FaClock />
+            <div className="w-15 h-15 mx-auto rounded-full group hover:bg-[#242F42] border-2 border-primary flex items-center justify-center">
+              <FaClock className="transition-colors duration-300 group-hover:text-white"/>
 
             </div>
 
@@ -139,8 +135,8 @@ const Why_Choose = () => {
 
           {/* Item 2 */}
           <div className="max-w-xs text-center">
-            <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              <FaBriefcase />
+            <div className="w-15 h-15 mx-auto group hover:bg-[#242F42] rounded-full border-2 border-primary flex items-center justify-center">
+              <FaBriefcase className="transition-colors duration-300 group-hover:text-white" />
             </div>
 
             <h1 className="mt-5 text-xl font-semibold text-primary">
@@ -154,8 +150,8 @@ const Why_Choose = () => {
 
           {/* Item 3 */}
           <div className="max-w-xs text-center">
-            <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-                <FaLightbulb />
+            <div className="w-15 h-15 mx-auto rounded-full group hover:bg-[#242F42] border-2 border-primary flex items-center justify-center">
+                <FaLightbulb className="transition-colors duration-300 group-hover:text-white" />
             </div>
 
             <h1 className="mt-5 text-xl font-semibold text-primary">
@@ -168,8 +164,8 @@ const Why_Choose = () => {
           </div>
 
           <div className="max-w-xs text-center">
-            <div className="w-15 h-15 mx-auto rounded-full border-2 border-primary flex items-center justify-center">
-              <FaSmile />
+            <div className="w-15 h-15 mx-auto rounded-full group hover:bg-[#242F42] border-2 border-primary flex items-center justify-center">
+              <FaSmile  className="transition-colors duration-300 group-hover:text-white"/>
             </div>
 
             <h1 className="mt-5 text-xl font-semibold text-primary">

@@ -1,4 +1,4 @@
-import fulcrum_logo_main from "./fulcrum_logo_main.png";
+import MainLogo from "./MainLogo.png";
 import search from "./search.png";
 import menu from "./menu.png";
 import cancel from "./cancel.png";
@@ -60,10 +60,12 @@ import BLOG from "./BLOG.jpg"
 import S_B_T from "./S_B_T.jpg"
 import S_B_TI from "./S_B_T_I2.jpg"
 import Contact from "./CONTACT.jpg"
+import fulcrum_logo from "./fulcrum_logo_main.png"
+import que from "./que.jpg"
 
 
 export const assets = {
-  fulcrum_logo_main,
+MainLogo,
   search,
   menu,
   cancel,
@@ -126,6 +128,8 @@ export const assets = {
   S_B_T,
   S_B_TI,
   Contact,
+  fulcrum_logo,
+  que,
 };
 
 

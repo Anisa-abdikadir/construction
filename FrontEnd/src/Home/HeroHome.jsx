@@ -10,9 +10,11 @@ import {
   ArrowRight ,
 } from "lucide-react";
 import { MoveRight } from 'lucide-react';
+import { useNavigate } from "react-router-dom";
 
 
 const HeroHome = () => {
+  const navigate =useNavigate();
   return (
     <section  className="relative min-h-162.5 overflow-hidden">
 
@@ -58,7 +60,7 @@ const HeroHome = () => {
 
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 mt-8">
+            {/* <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 mt-8">
                 <Button
                 size="sm"
                 rounded="full"
@@ -80,6 +82,33 @@ const HeroHome = () => {
           </Button>
             
 
+            </div> */}
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 mt-8">
+            <Button
+              size="sm"
+              rounded="full"
+              variant="secondary"
+              className="w-48 h-12"
+              onClick={() => navigate("/Projects")}
+            >
+              OUR PROJECTS
+              <span className="ml-3">
+                <MoveRight />
+              </span>
+            </Button>
+
+            <Button
+              size="sm"
+              rounded="full"
+              variant="primary"
+              className="bg-transparent border border-white text-white hover:bg-white hover:text-black transition-colors"
+              onClick={() => navigate("/request-quote")}
+            >
+              GET A QUOTE
+              <span className="ml-3">
+                <MoveRight />
+              </span>
+            </Button>
             </div>
 
           </div>

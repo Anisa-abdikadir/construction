@@ -8,6 +8,7 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 import { assets } from '../assets/assets';
+import Button from '../ui/Button';
 
 const services = [
   {
@@ -38,7 +39,7 @@ const services = [
 
 const HServices = () => {
   return (
-    <section className=" px-6 sm:py-2 ">
+    <section className=" px-6  bg-white py-20 sm:py-24 ">
 
       {/* Section Header */}
       <div className="max-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10">
@@ -55,14 +56,14 @@ const HServices = () => {
           
 
 
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary leading-tight">
+          <h2 className="text-2xl sm:text-6xl md:text-4xl text-center font-bold leading-tight text-primary">
             Construction Services
             <br />
             For Every Project
           </h2>
 
-          <p className=" text-primary text-sm  sm:text-lg leading-7">
-            We provide reliable construction services designed to meet
+          <p className=" text-primary text-sm  sm:text-sm leading-7">
+            We provide reliable construction services designed to meet <br />
             residential, commercial, and industrial project needs.
           </p>
 
@@ -79,10 +80,10 @@ const HServices = () => {
             return (
               <div
                 key={index}
-                className=" group border h-100 bg-white border-gray-200 rounded-sm p-3
+                className=" group border  h-full bg-white border-gray-200 rounded-sm p-3
                    ">
             
-               <div className="relative w-14 h-14">
+               <div className="relative w-14 h-14 cursor-pointer">
                   <div className="absolute bottom-0 left-0 px-8 py-7 bg-gray-200  rounded-4xl">
                   </div>
 
@@ -140,17 +141,20 @@ const HServices = () => {
 
                 {/* Explore Button */}
                 
-                <button className=" mt-7 w-full border border-gray-200 rounded-4xl
-                  px-4 py-3 flex items-center  justify-between
-                  text-sm font-semibold
-                  text-[#242F42]  hover:bg-[#242F42] hover:text-white hover:border-[#242F42]
-                  transition-all duration-300 cursor-pointer">
+                
+                     <Button
+                 size='sm'
+                    rounded="full"
+                    variant="primary"
+                    className="m-5 hover:bg-[#3770A8] cursor-pointer transition-colors"
+                  >
+               
 
                   <span>Explore More</span>
 
                   <ArrowUpRight size={20} />
 
-                </button>
+                </Button>
 
               </div>
             );

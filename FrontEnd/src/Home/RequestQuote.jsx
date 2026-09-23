@@ -8,26 +8,26 @@ import { ArrowUpRight } from "lucide-react";
 
 const RequestQuote = () => {
   return (
-    <div className="relative h-65 px-2  md:h-80 w-full overflow-hidden max-w-6xl mx-auto  sm:px-10 pt-10">
+      <div className="group relative h-65 w-full max-w-6xl mx-auto cursor-pointer overflow-hidden px-2 pt-10 sm:px-10 md:h-80">
 
-      {/* Image */}
-      <img
-        src={assets.mainReq}
-        alt="Request a quote"
-        className="w-full h-full object-cover  rounded-2xl"
-      />
+        {/* Image */}
+        <img
+          src={assets.mainReq}
+          alt="Request a quote"
+          className="absolute inset-0 h-full w-full rounded-2xl object-cover cursor-pointer transition-all duration-500 group-hover:scale-110"
+        />
 
-      {/* Dark background */}
-      {/* <div className="absolute inset-y-0 px-10 left-8 right-8 bg-[#242F42]/60 rounded-2xl"></div> */}
+        {/* Overlay */}
+        <div className="absolute inset-0 rounded-2xl bg-black/20 transition-all duration-300 group-hover:bg-black/50" />
 
-      {/* Content */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
+        {/* Content */}
+        <div className="absolute inset-0 z-10 flex flex-col items-center justify-center px-6 text-center text-white">
 
-          <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">
+          <h1 className="mb-2 text-2xl font-bold md:text-3xl transition-transform duration-500 group-hover:-translate-y-2">
             Request a Quote
           </h1>
 
-          <p className="text-sm md:text-base text-white/80 max-w-xl mb-5">
+          <p className="mb-5 max-w-xl text-sm text-white/80 md:text-base transition-transform duration-500 group-hover:-translate-y-2">
             Planning your next construction project? Tell us what you need,
             and our experienced team will provide a tailored quote for your project.
           </p>
@@ -37,24 +37,19 @@ const RequestQuote = () => {
               size="sm"
               rounded="full"
               variant="primary"
-              className="flex items-center gap-2 transition-colors"
+              className="flex items-center gap-2 transition-transform duration-500 group-hover:-translate-y-2"
             >
               Get a Free Quote
-
-              <ArrowUpRight
-                strokeWidth={1.5}
-                className="text-white"
-              />
+              <ArrowUpRight strokeWidth={1.5} />
             </Button>
           </Link>
 
         </div>
+      </div>
 
-
-      {/* <RequestQuotePage/> */}
-
-    </div>
   )
+
+  
 }
 
 export default RequestQuote

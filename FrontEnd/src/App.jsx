@@ -7,8 +7,7 @@ import Services from './Pages/Services'
 import Projects from './Pages/Projects'
 import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
-// import Req
-
+import RequestQuotePage from './Pages/RequestQuotePage'
 const App = () => {
   
   return (
@@ -18,11 +17,7 @@ const App = () => {
         {/* Home Page */}
         <Route path="/" element={<Home />} />
 
-        {/* Request Quote Page */}
-        {/* <Route
-          path="/request-quote"  element={<RequestQuotePage />}
-
-        /> */}
+        <Route path="/request-quote"  element={<RequestQuotePage />}/>
         <Route path ="/About" element={<About/>}/>
         <Route path ="/Services" element={<Services/>}/>
         <Route path="/Projects" element={<Projects/>}/>

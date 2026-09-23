@@ -5,69 +5,41 @@ import Button from "../ui/Button";
 
 const H_About = () => {
   return (
-    <section className="w-full  px-4 sm:px-2 md:px-7  lg:px-5 py-16 sm:py-20 lg:py-24">
-      <div className="relative max-w-6xl mx-auto">
+    <section className="w-full  px-4 sm:px-2 md:px-7 bg-white py-20 sm:py-24  lg:px-5  lg:py-24">
+      <div className="relative  max-w-6xl mx-auto">
 
-        <div className="grid grid-cols-1 px-10 lg:grid-cols-[220px_1fr] gap-6 lg:gap-10">
+           <div className="te">
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <div className="rounded-full w-2 h-2 bg-blue-400"></div>
 
-          {/* LEFT IMAGE */}
-          <div className="hidden lg:block h-90 overflow-hidden rounded-sm">
+            <p className="text-sm  text-[#3770A8]">
+                ABOUT OUR COMPANY
+            </p>
+          </div>
+
+          <h2 className="text-2xl sm:text-6xl md:text-4xl text-center font-bold leading-tight text-primary ">
+                        <span className="text-[#3770A8]">Building Excellence Through </span>  <br /> Innovation and Expertise
+
+          </h2>
+
+        
+          </div>
+              <div className="flex flex-col lg:flex-row   gap-10">
+          <div className="w-full lg:w-1/2 h-100 ml-10 pt-5 overflow-hidden rounded-sm">
             <img
               src={assets.GoldenHourConstruction}
               alt="Construction machine"
-              className="w-full h-full  object-cover"
+              className="w-full h-full rounded-2xl cursor-pointer object-cover"
             />
           </div>
 
-          {/* RIGHT  */}
-          <div className="">
-
-            {/* LABEL */}
-            <div className="flex gap-2 items-center mb-4">
-              <div className="rounded-full w-2 h-2 bg-blue-400" />
-
-              <p className="text-xs sm:text-sm text-[#3770A8] font-medium">
-                ABOUT OUR COMPANY
-              </p>
-            </div>
-
-            {/* TITLE */}
-            <h2
-              className=" text-[#242424] font-medium tracking-[-1.5px]  leading-[1.05] text-4xl  sm:text-5xl lg:text-6xl max-w-4xl" >
-              Building Excellence Through Innovation and Expertise
-            </h2>
-
-            {/* DESCRIPTION */}
-            <div className="mt-6 sm:mt-8 max-w-2xl">
-
-              <p
-                className=" text-[#626262]text-sm sm:text-base  leading-7" >
-                We deliver high-quality construction solutions with a strong
-                focus on efficiency, safety, and precision. From planning to
-                completion, our team works closely with clients to bring their
-                vision to life and deliver projects built to last.
-              </p>
-
-              {/* BUTTON */}
-              <div className="mt-6 group">
-                <Button
-                  size="sm"
-                  rounded="full"
-                  className="gap-4" >
-                  <span>LEARN MORE</span>
-
-                  <span
-                    className=" rounded-full bg-[#3770A8] group-hover:bg-[#242F42] flex items-center justify-center  shrink-0" >
-                    <ArrowUpRight
-                      strokeWidth={1.5}
-                      className="text-white"
-                    />
-                  </span>
-                </Button>
-              </div>
-
-            </div>
-          </div>
+          {/* Text */}
+          <p className="w-full lg:w-1/2 pt-5  text-primary text-sm sm:text-lg text-start ">We deliver high-quality construction solutions with a strong focus on efficiency,  safety, and precision. 
+          From planning to completion, our team
+            works closely with clients to bring their vision to life and deliver
+            projects built to last.
+           
+          </p>
         </div>
 
         <div className="grid grid-cols-1 px-10 lg:grid-cols-[1fr_300px] gap-6 mt-8 sm:mt-10">
@@ -124,7 +96,7 @@ const H_About = () => {
             <img
               src={assets.Threepeople}
               alt="Construction team"
-              className="absolute bottom-0  right-10 hidden md:block w-75 rounded-lg  object-cover"
+              className="absolute bottom-0 cursor-pointer right-10 hidden md:block w-75 rounded-lg  object-cover"
             />
       </div>
     </section>

@@ -25,7 +25,7 @@ const Home = () => {
         <H_About/>
         <Process/>
         <RequestQuote/>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   )
