@@ -21,7 +21,7 @@ import trophy from "./trophy.png";
 import bank1 from "./bank (1).png";
 
 import servicesHeroImage from "./servicesHeroImage.jpg";
-import project from "./project.jpg";
+import project from "./Project.jpg";
 
 import bathroom1 from "./bathroom1.jpg";
 import bathroom2 from "./bathroom(2).jpg";
