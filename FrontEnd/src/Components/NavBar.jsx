@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import Button from "../ui/Button";
 import { assets } from "../assets/assets";
 
-const Navbar = () => {
+const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   const closeMenu = () => {
@@ -286,4 +286,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
