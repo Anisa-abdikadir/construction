@@ -37,6 +37,11 @@ const H_About = () => {
           <p className="w-full lg:w-1/2 pt-5  text-primary text-sm sm:text-lg text-start ">We deliver high-quality construction solutions with a strong focus on efficiency,  safety, and precision. 
           From planning to completion, our team
             works closely with clients to bring their vision to life and deliver
+            projects built to last,
+             From planning to completion, our team
+            works closely with clients to bring their vision to life and deliver
+            projects built to last. From planning to completion, our team
+            works closely with clients to bring their vision to life and deliver
             projects built to last.
            
           </p>
