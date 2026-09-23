@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Button from "../ui/Button";
 import Icons from "../ui/Icons";
 import { assets } from "../assets/assets";
+import NavBar from "../Components/NavBar";
+import Footer from "../Components/Footer";
 
 const projectTypes = [
   "Residential Construction",
@@ -55,6 +57,7 @@ const RequestQuotePage = () => {
 
   return (
     <div className="w-full">
+        <NavBar/>
       <section className="relative h-65 md:h-80 w-full overflow-hidden">
         <img
           src={assets.que}
@@ -268,7 +271,7 @@ const RequestQuotePage = () => {
                         </div>
                         </form>
                     </section>
-
+                                <Footer/>
     
     </div>
   );
