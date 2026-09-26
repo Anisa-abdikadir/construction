@@ -17,8 +17,6 @@ const Home = () => {
       <div>
         
         <NavBar/>
-        
-        
         <HeroHome/>
         <HServices/>
         <WorkProcess/>

@@ -42,9 +42,9 @@ const processes = [
 
 const WorkProcess = () => {
   return (
-    <section className="bg-white py-20 sm:py-24 ">
+    <section className="bg-white py-6 sm:py-4 lg:py-6 ">
    
-      <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-10">
+      <div className="max-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10">
       
           <div className="flex items-center justify-center gap-2 mb-4">
             <div className="rounded-full w-2 h-2 bg-blue-400"></div>
@@ -71,29 +71,20 @@ const WorkProcess = () => {
                 </div>
 
 
-          <p className="   max-w-2xl text-gray-600 text-sm  sm:text-sm ">
-              From the first consultation to final handover, we follow
-              a clear and professional process to deliver construction
-              projects with quality, safety, and precision.
-                From the first consultation to final handover, we follow
-              a clear and professional process to deliver construction
-              projects with quality, safety, and precision.
-                From the first consultation to final handover, we follow
-              a clear and professional process to deliver construction
-              projects with quality, safety, and precision.
-                <div className=" mt-5 flex items-center gap-3">
+         <div className="max-w-2xl text-gray-600 text-sm sm:text-sm">
+          From the first consultation to final handover, we follow
+          a clear and professional process to deliver construction
+          projects with quality, safety, and precision.
 
-
-                    <p className="text-sm text-[#242F42]">
-                      Have a Project in Mind?
-                      <span className=" ml-1
-                        font-bold underline cursor-pointer ">
-                        View All Services
-                      </span>
-                    </p>
-
-                  </div>
+          <div className="mt-5 flex items-center gap-3">
+            <p className="text-sm text-[#242F42]">
+              Have a Project in Mind?
+              <span className="ml-1 font-bold underline cursor-pointer">
+                View All Services
+              </span>
             </p>
+          </div>
+        </div>
            
 
         </div>

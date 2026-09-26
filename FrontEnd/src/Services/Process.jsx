@@ -25,8 +25,8 @@ const Process = () => {
    
 
   return (
-      <div className="w-full  bg-white py-12 sm:py-16 lg:py-24">
-      <div className="max-w-382.5 mx-auto px-5 sm:px-8 lg:px-10">
+      <div className="bg-white py-6 sm:py-4 lg:py-6  ">
+      <div className="max-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10">
 
         {/* Heading */}
         <div className="text-center max-w-2xl mx-auto">
@@ -35,12 +35,12 @@ const Process = () => {
               <div className="rounded-full w-2 h-2 font-semibold bg-blue-400" />
 
             <span className="text-xs sm:text-sm text-[#3770A8] font-medium">
-              Our Process
+              OUR PROCESS
             </span>
 
           </div>
               <h1 className=' sm:text-6xl md:text-4xl text-center font-bold leading-tight text-primary'>
-                <span className='text-[#3770A8]'>Process </span> we follow</h1>
+                Process  we follow</h1>
               <p className='text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
                Est, ullam sequi explicabo cum autem facere vitae. </p> 
       
@@ -64,12 +64,12 @@ const Process = () => {
                   <div className="relative">
 
                     {/* Number */}
-                    <div className="absolute -top-2 right-10  w-11 h-11 rounded-full bg-[#3770A8] border-white border-2 text-black flex items-center justify-center text-sm font-bold shadow-lg">
+                    <div className="absolute -top-2 right-10  w-11 h-11 rounded-full bg-[#3770A8] border-white border-2 text-white flex items-center justify-center text-sm font-bold shadow-lg">
                       {process.number}
                     </div>
 
                     {/* Outer Circle */}
-                    <div className="w-60 h-60 sm:w-64 cursor-pointer sm:h-64 lg:w-72 lg:h-72 rounded-full bg-[#242F42] flex items-center justify-center ">
+                    <div className="w-60 h-60 sm:w-64  sm:h-64 lg:w-72 lg:h-72 rounded-full bg-[#242F42] flex items-center justify-center ">
                           {/* circle gudaha */}
                                             
                       <div className="w-48 h-48 sm:w-52 sm:h-52 lg:w-56 lg:h-56 rounded-full border-white border-2 flex flex-col items-center justify-center text-center px-5 group">

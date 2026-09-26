@@ -5,8 +5,8 @@ import Button from "../ui/Button";
 
 const H_About = () => {
   return (
-    <section className="w-full  px-4 sm:px-2 md:px-7 bg-white py-20 sm:py-24  lg:px-5  lg:py-24">
-      <div className="relative  max-w-6xl mx-auto">
+    <section className="w-full  px-4 sm:px-2 md:px-7 bg-white py-6 sm:py-4 lg:py-6  lg:px-5  ">
+      <div className="relative  ax-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10">
 
            <div className="te">
           <div className="flex items-center justify-center gap-2 mb-4">
@@ -18,7 +18,7 @@ const H_About = () => {
           </div>
 
           <h2 className="text-2xl sm:text-6xl md:text-4xl text-center font-bold leading-tight text-primary ">
-                        <span className="text-[#3770A8]">Building Excellence Through </span>  <br /> Innovation and Expertise
+                        Building Excellence Through  <br /> Innovation and Expertise
 
           </h2>
 

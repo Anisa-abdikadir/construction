@@ -48,9 +48,9 @@ const ServicesSevtonTwo = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-6 sm:py-4 lg:py-6 ">
 
-        <div className="w-full mt-8 sm:mt-16 lg:mt-20">
+        <div className="max-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
 
         {services.map((service, index) => (

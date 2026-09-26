@@ -21,20 +21,20 @@ import {
 
 const Why_Choose = () => {
   return (
-    <div className="bg-white py-20 sm:py-24">
+    <div className="bg-white py-6 sm:py-4 lg:py-6">
 
-      <div className="text-center max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10">
 
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center justify-center gap-2 mb-4">
             <div className="rounded-full w-2 h-2 bg-blue-400"></div>
 
             <h1 className="text-sm text-[#3770A8]">
-              Why choose us
+              WHY CHOOSE US
             </h1>
           </div>
 
-          <p className="text-primary text-sm sm:text-lg leading-7">
+          <p className="text-primary text-center text-sm sm:text-lg leading-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </div>

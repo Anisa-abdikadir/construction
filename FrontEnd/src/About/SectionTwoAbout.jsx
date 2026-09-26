@@ -62,7 +62,7 @@ const SectionTwoAbout = () => {
 
       </div>
 
-         <div className="mt-10 relative">
+         <div className="mt-10 relative bg-amber-950 ">
             <img
               src={assets.AboutSection2ButtonImage2}
               className="md:w-full lg:w-full  md:h-30 lg:h-30 h-100 object-cover"

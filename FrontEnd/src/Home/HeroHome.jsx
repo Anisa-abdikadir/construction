@@ -31,9 +31,9 @@ const HeroHome = () => {
 
 
       {/* Hero Content */}
-      <div className="relative z-10 min-h-162.5 flex items-center">
+      <div className="relative z-10 min-h-162.5 flex items-center ">
 
-        <div className="w-full max-w-6xl mx-auto px-5 sm:px-8 lg:px-10 py-32">
+        <div className="w-full max-w-6xl mx-auto px-5 sm:px-8 lg:px-6 py-32 ">
 
           <div className="max-w-3xl text-[#479CF1]">
 

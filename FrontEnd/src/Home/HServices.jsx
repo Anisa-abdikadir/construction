@@ -39,7 +39,7 @@ const services = [
 
 const HServices = () => {
   return (
-    <section className=" px-6  bg-white py-20 sm:py-24 ">
+    <section className="bg-white py-6 sm:py-4 lg:py-6">
 
       {/* Section Header */}
       <div className="max-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10">
@@ -83,12 +83,12 @@ const HServices = () => {
                 className=" group border  h-full bg-white border-gray-200 rounded-sm p-3
                    ">
             
-               <div className="relative w-14 h-14 cursor-pointer">
+               <div className="relative w-14 h-14">
                   <div className="absolute bottom-0 left-0 px-8 py-7 bg-gray-200  rounded-4xl">
                   </div>
 
                   {/* Icon box - kor iyo midig */}
-                  <div className="absolute top-1 hover:bg-[#3770A8] -right-3 px-3 py-3 bg-primary border border-gray-200 rounded-4xl flex items-center justify-center">
+                  <div className="absolute top-1  -right-3 px-3 py-3 bg-primary border border-gray-200 rounded-4xl flex items-center justify-center">
                     <Icon
                       size={32}
                       strokeWidth={1.5}
@@ -145,8 +145,8 @@ const HServices = () => {
                      <Button
                  size='sm'
                     rounded="full"
-                    variant="primary"
-                    className="m-5 hover:bg-[#3770A8] cursor-pointer transition-colors"
+                    variant=""
+                    className="m-5 border border-[#3770A8] cursor-pointer transition-colors hover:bg-[#3770A8] hover:text-white text-[#3770A8] flex items-center gap-2"
                   >
                
 

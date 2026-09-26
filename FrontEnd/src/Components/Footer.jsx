@@ -32,10 +32,10 @@ const Footer = () => {
     window.scroll(0,0)
   },[])
   return (
-    <footer className="bg-primary mt-10 text-white">
+    <footer className="bg-primary mt-10 w-full py-6 sm:py-4 lg:py-6  text-white">
 
       {/* MAIN FOOTER */}
-      <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+      <div className=" max-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10">
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
 
