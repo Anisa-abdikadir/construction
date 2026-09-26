@@ -115,12 +115,12 @@ const WorkProcess = () => {
                   </span>
 
 
-               <div className="relative w-14 h-14 cursor-pointer">
+               <div className="relative w-14 h-14 ">
                   <div className="absolute bottom-0 left-0  px-8 py-7 bg-gray-200/20  rounded-full">
                   </div>
 
                   {/* Icon box - kor iyo midig */}
-                  <div className="absolute top-0 hover:bg-[#3770A8] -right-3 px-3 py-3 bg-primary rounded-4xl flex items-center justify-center">
+                  <div className="absolute top-0  -right-3 px-3 py-3 bg-[#242F42] rounded-4xl flex items-center justify-center">
                     <Icon
                       size={32}
                       strokeWidth={1.5}
