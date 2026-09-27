@@ -42,7 +42,7 @@ const Why_Choose = () => {
 
 
         {/* Circles and Content */}
-        <div className="flex flex-col cursor-pointer sm:flex-row gap-1 mt-12 items-center justify-center">
+        <div className="flex flex-col  sm:flex-row gap-1 mt-12 items-center justify-center">
 
           <div className="max-w-xs text-center">
             <div className="w-15 h-15 mx-auto rounded-full  border-2 group hover:bg-[#242F42] border-primary flex items-center justify-center">

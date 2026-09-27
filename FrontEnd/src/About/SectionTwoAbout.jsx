@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 import { HiOutlineBuildingLibrary } from "react-icons/hi2";
 import { VscGraph } from "react-icons/vsc";
 import { CiUser } from "react-icons/ci";
-import { FaAward } from "react-icons/fa";
+import { LiaAwardSolid } from "react-icons/lia";
 
 
 
@@ -91,7 +91,7 @@ const SectionTwoAbout = () => {
                     </div>
 
                      <div className="text-white flex items-center justify-center gap-2">
-                         <FaAward className='text-2xl'/>
+                         <LiaAwardSolid className='text-2xl'/>
 
 
                       <div>

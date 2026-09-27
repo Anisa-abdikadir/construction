@@ -75,7 +75,6 @@ const ServicesSevtonTwo = () => {
               </div>
             </div>
 
-            {/* Title */}
             <h1
               className=" relative z-10 text-[14px] font-semibold leading-[1.4] tracking-tight  text-white/90"  >
               {service.title}
@@ -88,28 +87,6 @@ const ServicesSevtonTwo = () => {
          <div
         className=" relative bg-primary w-full  min-h-50  rounded-4xl mt-8 sm:mt-10 px-5 sm:px-8 lg:px-10
           py-8 flex flex-col lg:flex-row items-center gap-6 lg:gap-10">
-
-        <div className="flex items-center gap-3 shrink-0 w-full lg:w-auto">
-
-          {/* Circle Icon */}
-          <div className=" w-14 h-14 sm:w-15 sm:h-15 shrink-0 rounded-full  border-2 border-white
-            flex items-center justify-center ">
-            <MdWifiCalling3 className="text-2xl sm:text-3xl text-white" />
-          </div>
-
-          {/* Text */}
-          <div className="flex flex-col text-white">
-            <p className="font-semibold text-base sm:text-lg">
-                Call Now
-            </p>
-
-            <p className="text-sm sm:text-base">
-              6127272727
-            </p>
-          </div>
-
-        </div>
-
         <div className=" hidden lg:block h-20  border-l-2  border-white/20  " />
 
         {/* DESCRIPTION */}
@@ -119,14 +96,9 @@ const ServicesSevtonTwo = () => {
           error nisi? Nostrum natus tenetur eum inventore in adipisci
           ut quis ipsa iure fugiat.
         </p>
+         <div className=" hidden lg:block h-20  border-l-2  border-white/20  " />
 
-        {/* INPUT */}
-        <div className="w-full lg:w-auto shrink-0">
-          <input
-            type="text"
-            placeholder="fulcrum"
-            className=" w-full lg:w-48 px-4 py-3 bg-white rounded-full outline-none text-sm" />
-        </div>
+
 
       </div>
       </div>
