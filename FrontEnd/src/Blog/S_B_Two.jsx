@@ -8,7 +8,7 @@ import Button from '../ui/Button';
 
 const S_B_Two = () => {
   return (
-    <div className='px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto'>
+    <div className=' max-w-6xl mx-auto px-9 sm:px-6 pt-14 lg:px-10 bg-white py-6 sm:py-4 lg:py-10'>
 
        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10'>
          <div className=' w-full h-full '>
@@ -46,7 +46,7 @@ const S_B_Two = () => {
             <div className="flex h-9 sm:h-10 overflow-hidden rounded-full bg-white">
               <input
                 type="text"
-                placeholder="office"
+                placeholder="search"
                 className="min-w-0 flex-1 px-3 sm:px-4 text-sm outline-none"
               />
 

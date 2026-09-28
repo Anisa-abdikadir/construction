@@ -22,7 +22,7 @@ const footerLinks = {
   Company: [
     { name: "About Us", path: "/About" },
     { name: "Our Projects", path: "/projects" },
-    { name: "BLOG", path: "/Blog" },
+    { name: "Blog", path: "/Blog" },
     { name: "Contact Us", path: "/contact" },
   ],
 };

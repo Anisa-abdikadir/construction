@@ -21,7 +21,7 @@ const HeroAbout = () => {
                               Home
                             </Link>
                             <span className="mx-2 text-white/60">/</span>
-                            <span className="text-[#3770A8]">About</span>
+                            <span className="text-[#3770A8] cursor-pointer">About</span>
                           </p>
                         </div>
                

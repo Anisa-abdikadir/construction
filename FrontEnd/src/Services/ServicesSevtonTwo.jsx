@@ -85,8 +85,8 @@ const ServicesSevtonTwo = () => {
 
         </div>
          <div
-        className=" relative bg-primary w-full  min-h-50  rounded-4xl mt-8 sm:mt-10 px-5 sm:px-8 lg:px-10
-          py-8 flex flex-col lg:flex-row items-center gap-6 lg:gap-10">
+        className=" relative bg-primary w-full  min-h-50  rounded-4xl mt-8 sm:mt-10 px-5 sm:px-8 lg:px-15
+          py-10 flex flex-col lg:flex-row items-center gap-6 lg:gap-5">
         <div className=" hidden lg:block h-20  border-l-2  border-white/20  " />
 
         {/* DESCRIPTION */}

@@ -109,7 +109,7 @@ const FormContact = () => {
 
         <div className=' w-full bg-[#242F42]/10 rounded-2xl h-full  md:col-span-2'>
             <div className='flex gap-5 text-sm m-8 items-center'>
-                <div className='bg-[#242F42] px-6 py-5 rounded-2xl '>
+                <div className='bg-[#242F42] px-3 py-3 rounded-2xl '>
                     <FaEnvelopeOpenText className='text-white text-2xl' />
                 </div>
 
@@ -125,7 +125,7 @@ const FormContact = () => {
         <div className="w-4/5 h-px bg-[#242F42]/20  mx-auto"></div>
 
          <div className='flex gap-5 text-sm m-8 items-center'>
-                <div className='bg-[#242F42] px-6 py-5 rounded-2xl '>
+                <div className='bg-[#242F42] px-3 py-3 rounded-2xl '>
                     <BiSolidPhoneCall className='text-white text-2xl' />
                 </div>
 
@@ -141,7 +141,7 @@ const FormContact = () => {
              <div className="w-4/5 h-px bg-[#242F42]/20  mx-auto"></div>
 
          <div className='flex gap-5 text-sm m-8 items-center'>
-                <div className='bg-[#242F42] px-6 py-5 rounded-2xl '>
+                <div className='bg-[#242F42] px-3 py-3 rounded-2xl '>
                     <FaLocationDot className='text-white text-2xl' />
                 </div>
 
@@ -157,7 +157,7 @@ const FormContact = () => {
                  <div className="w-4/5 h-px bg-[#242F42]/20  mx-auto"></div>
 
          <div className='flex gap-5 text-sm m-8 items-center'>
-                <div className='bg-[#242F42] px-6 py-5 rounded-2xl '>
+                <div className='bg-[#242F42] px-3 py-3 rounded-2xl '>
                     <FaWhatsapp className='text-white text-2xl' />
                 </div>
 
@@ -175,7 +175,7 @@ const FormContact = () => {
         </div>
 
         <div className="md:col-span-5 w-full">
-        <div className="w-full h-[450px] mt-10 rounded-2xl overflow-hidden shadow-sm">
+        <div className="w-full h-112.5 mt-10 rounded-2xl overflow-hidden shadow-sm">
             <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31898.416574656625!2d45.2786738191969!3d2.034982425200957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d58434afb9fbdd1%3A0x2aac079d2974ac29!2sJowhara%20Apartments!5e0!3m2!1sen!2sso!4v1790076755913!5m2!1sen!2sso"
             className="w-full h-full border-0"

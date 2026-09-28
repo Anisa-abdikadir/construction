@@ -15,7 +15,7 @@ const HeroServices = () => {
                               Home
                             </Link>
                             <span className="mx-2 text-white/60">/</span>
-                            <span className="text-[#3770A8]">Services</span>
+                            <span className="text-[#3770A8] cursor-pointer">Services</span>
                           </p>
                         </div>
                     

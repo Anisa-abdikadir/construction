@@ -62,70 +62,79 @@ const SectionTwoAbout = () => {
 
       </div>
 
-         <div className="mt-10 relative bg-amber-950 ">
-            <img
-              src={assets.AboutSection2ButtonImage2}
-              className="md:w-full lg:w-full  md:h-30 lg:h-30 h-100 object-cover"
-              alt=""  />
 
-            <div className="absolute inset-0 flex text-[#ffffff] items-center px-6 sm:px-10 lg:px-12 bg-primary/65">
-              <div className="w-full grid gap-5 lg:grid-cols-4 md:grid-cols-3">
-                
-               
-                    <div className="text-white flex items-center justify-center gap-2">
-                      <VscGraph className="text-2xl " />
+      <div className="relative mt-10 overflow-hidden mx-8 rounded-lg">
+        {/* Background Image */}
+        <img
+          src={assets.AboutSection2ButtonImage2}
+          alt="Statistics"
+          className="w-full h-32 sm:h-36 md:h-40 object-cover"
+        />
 
-                      <div>
-                        <p className="text-2xl font-semibold mt-5">460+</p>
-                        <p className="text-sm">Case Completed</p>
-                      </div>
-                    </div>
+        {/* Overlay */}
+        <div className="absolute inset-0 flex items-center bg-primary/65 px-6 sm:px-10 lg:px-12">
+          
+          <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-6">
 
-                     <div className="text-white flex items-center justify-center gap-2">
-                        <CiUser  className="text-2xl " />
+            {/* Case Completed */}
+            <div className="flex items-center justify-center gap-2 text-white">
+              <VscGraph className="text-2xl shrink-0" />
 
-                      <div>
-                        <p className="text-2xl font-semibold mt-5">29</p>
-                        <p className="text-sm">Consultants</p>
-                      </div>
-                    </div>
-
-                     <div className="text-white flex items-center justify-center gap-2">
-                         <LiaAwardSolid className='text-2xl'/>
-
-
-                      <div>
-                        <p className="text-2xl font-semibold mt-5">18</p>
-                        <p className="text-sm">Awards winning</p>
-                      </div>
-                    </div>
-
-                     <div className="text-white flex items-center justify-center gap-2">
-                         <HiOutlineBuildingLibrary className="text-2xl " />
-
-                      <div>
-                        <p className="text-2xl font-semibold mt-5">10</p>
-                        <p className="text-sm"> Years of Experience</p>
-                      </div>
-                    </div>
-                    
-
-                    
-
-
-              
+              <div>
+                <p className="text-xl sm:text-2xl font-semibold">
+                  460+
+                </p>
+                <p className="text-xs sm:text-sm">
+                  Case Completed
+                </p>
               </div>
-            
+            </div>
 
-                          </div>
-                        
+            {/* Consultants */}
+            <div className="flex items-center justify-center gap-2 text-white">
+              <CiUser className="text-2xl shrink-0" />
 
+              <div>
+                <p className="text-xl sm:text-2xl font-semibold">
+                  29
+                </p>
+                <p className="text-xs sm:text-sm">
+                  Consultants
+                </p>
+              </div>
+            </div>
 
+            {/* Awards */}
+            <div className="flex items-center justify-center gap-2 text-white">
+              <LiaAwardSolid className="text-2xl shrink-0" />
 
+              <div>
+                <p className="text-xl sm:text-2xl font-semibold">
+                  18
+                </p>
+                <p className="text-xs sm:text-sm">
+                  Awards Winning
+                </p>
+              </div>
+            </div>
 
+            {/* Experience */}
+            <div className="flex items-center justify-center gap-2 text-white">
+              <HiOutlineBuildingLibrary className="text-2xl shrink-0" />
 
+              <div>
+                <p className="text-xl sm:text-2xl font-semibold">
+                  10
+                </p>
+                <p className="text-xs sm:text-sm">
+                  Years of Experience
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
-
 
       
 

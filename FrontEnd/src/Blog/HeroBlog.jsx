@@ -18,7 +18,7 @@ const HeroBlog = () => {
                               Home
                             </Link>
                             <span className="mx-2 text-white/60">/</span>
-                            <span className="text-[#3770A8]">Blog</span>
+                            <span className="text-[#3770A8] cursor-pointer">Blog</span>
                           </p>
                         </div>
                     
