@@ -25,7 +25,7 @@ const H_About = () => {
         
           </div>
               <div className="flex flex-col lg:flex-row   gap-10">
-          <div className="w-full lg:w-1/2 h-100 ml-10 pt-5 overflow-hidden rounded-sm">
+          <div className="w-full lg:w-1/2 h-100 ml-6 pt-5  overflow-hidden rounded-sm">
             <img
               src={assets.GoldenHourConstruction}
               alt="Construction machine"
@@ -47,9 +47,8 @@ const H_About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 px-10 lg:grid-cols-[1fr_300px] gap-6 mt-8 sm:mt-10">
+        <div className="grid grid-cols-1 px-10  lg:grid-cols-[1fr_300px] gap-6 mt-8 sm:mt-10">
 
-          {/* STATS CARD */}
           <div
             className=" bg-[#F7F5ED] rounded-[15px] min-h-45 sm:min-h-52.5 flex items-center px-4 sm:px-8  lg:px-10">
             <div className="w-full grid grid-cols-3">

@@ -220,15 +220,13 @@ const Footer = () => {
 
               <Link
                 to="/terms"
-                className="transition hover:text-[#3770A8]"
-              >
+                className="transition hover:text-[#3770A8]">
                 Terms
               </Link>
 
               <Link
                 to="/contact"
-                className="transition hover:text-[#3770A8]"
-              >
+                className="transition hover:text-[#3770A8]" >
                 Contact
               </Link>
 
